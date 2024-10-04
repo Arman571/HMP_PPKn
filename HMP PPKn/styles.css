@@ -1,0 +1,32 @@
+body {
+    margin: auto;
+    background-color: rgb(19, 89, 150);
+
+}
+.container-navbar {
+    background-color: brown;
+    width: 1080px;
+    height: 2160px;
+    padding-top: 0px;
+}
+.navbar {
+    list-style-type: none;
+    margin: 5px;
+    position: center;
+}
+
+.about {
+    
+    list-style-type: none;
+}
+.struktur_organisasi {
+    position: center;
+    list-style-type: none;
+}
+.Dokumentasi {
+    position: inherit;
+    list-style-type: none;
+}
+.Logo {
+    background-color: black;
+}

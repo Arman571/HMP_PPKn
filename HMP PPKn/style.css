@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal (jika ada tinggi yang ditentukan) */
+    background: green;
+    color: white;
+    padding: 20px 0; /* Padding atas dan bawah */
+}
+
+.logo {
+    max-width: 200px; /* Atur lebar maksimum logo */
+    height: auto; /* Menjaga proporsi */
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+}
+
+.back-btn {
+    display: inline-block;
+    margin: 10px;
+    background: #ccc;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.li-navbar {
+    list-style-type: none;
+}
+.str {
+    list-style-type: none;
+}
+.item {
+    list-style-type: none;
+}
